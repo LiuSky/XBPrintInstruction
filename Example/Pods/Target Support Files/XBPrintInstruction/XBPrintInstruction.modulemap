@@ -1,0 +1,6 @@
+framework module XBPrintInstruction {
+  umbrella header "XBPrintInstruction-umbrella.h"
+
+  export *
+  module * { export * }
+}

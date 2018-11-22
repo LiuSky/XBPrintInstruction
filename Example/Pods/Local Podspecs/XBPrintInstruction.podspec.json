@@ -1,0 +1,22 @@
+{
+  "name": "XBPrintInstruction",
+  "version": "0.1.0",
+  "summary": "A short description of XBPrintInstruction.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Sky/XBPrintInstruction",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sky": "327847390@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Sky/XBPrintInstruction.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XBPrintInstruction/Classes/**/*"
+}

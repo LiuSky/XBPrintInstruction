@@ -1,0 +1,16 @@
+PODS:
+  - XBPrintInstruction (0.1.0)
+
+DEPENDENCIES:
+  - XBPrintInstruction (from `../`)
+
+EXTERNAL SOURCES:
+  XBPrintInstruction:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XBPrintInstruction: 04760149e5b8976086673e5d61c8af6a045b7638
+
+PODFILE CHECKSUM: 4d4c432652d25278205b9a8e4b725a035a06c1c2
+
+COCOAPODS: 1.6.0.beta.1

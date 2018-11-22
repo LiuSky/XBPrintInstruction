@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XBPrintInstruction_Example' do
+  pod 'XBPrintInstruction', :path => '../'
+
+  target 'XBPrintInstruction_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
