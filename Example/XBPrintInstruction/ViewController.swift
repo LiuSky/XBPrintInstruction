@@ -97,7 +97,7 @@ class ViewController: UIViewController, PrintInstructionProtocol {
     //打印
     @objc func print() {
         
-        let printTemplate = PrintTemplate(storeName: "米客互联(福建总部)", number: "A001", tableType: TableType.tableForTwo, waiting: "您前面还有:0桌在等候", time: "排队时间:03月26日10时10分", phone: "餐厅电话:13696888888", qrcode: "https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=gQHj8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyNEtOU003WmQ4OV8xcTY5NTFxMU8AAgTG4ERaAwTAqAAA")
+        let printTemplate = PrintTemplate(storeName: "XXXXXX(XXXX)", number: "A001", tableType: TableType.tableForTwo, waiting: "您前面还有:0桌在等候", time: "排队时间:03月26日10时10分", phone: "餐厅电话:xxxxxxxx", qrcode: "https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=gQHj8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyNEtOU003WmQ4OV8xcTY5NTFxMU8AAgTG4ERaAwTAqAAA")
         for peripheral in printerArrary! {
             if peripheral.state == .connected {
                 
